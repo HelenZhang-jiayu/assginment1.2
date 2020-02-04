@@ -1,0 +1,343 @@
+*{
+    font-family:sans-serif;
+    text-decoration: none;
+    margin-top:0px;
+    margin-left:0px;
+    line-height: 75%;
+    text-align:center;
+    font-size:96%;
+    position: absolute;
+}
+div {
+    display: block;
+}
+h1{
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    line-height: 98%;
+    margin-top: 22vh;
+    margin-left:14px;
+    text-align:right;
+    font-size:25px;
+    color:white;
+}
+h1:hover{
+    color:rgb(38, 91, 236);
+}
+h3{
+    font-weight: lighter;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    line-height: 98%;
+    margin-top: 12vh;
+    margin-left:67vw;
+    text-align:right;
+    font-size:28px;
+    color:white
+}
+h3:hover{
+    color:rgb(38, 91, 236);
+}
+#box_lg{
+    color:lightgreen;
+}
+#box_lg:hover{
+    color:rgb(240, 155, 76);
+    font-size:105%;
+    font-style: italic;
+}
+#box_b{
+    font-size:99%;
+    color:rgb(94, 58, 18);
+}
+#box_b:hover{
+    color:white;
+    font-size:105%;
+    font-style: oblique;
+}
+#box_g{
+    line-height: normal;
+    color:green;
+}
+#box_g:hover{
+    color:rgb(165, 26, 26);
+    font-size:105%;
+    font-style: italic;
+}
+.a1{
+    margin-left: 9vw;
+    margin-top: 15vh;
+    width:12vw;
+    height:13vh;
+}
+.a2{
+    margin-left: 16vw;
+    margin-top: 31vh;
+    width:12vw;
+    height:13vh;
+}
+.a3{
+    margin-left: 24vw;
+    margin-top: 45vh;
+    width:12vw;
+    height:13vh;
+}
+.b1{
+    margin-left: 29vw;
+    margin-top: 90vh;
+    width:8vw;
+    height:18vh;
+}
+.b2{
+    margin-left: 28vw;
+    margin-top: 60vh;
+    width:10vw;
+    height:15vh;
+}
+.b3{
+    margin-left: 34vw;
+    margin-top: 59vh;
+    width:8vw;
+    height:20vh;
+}
+.b4{
+    margin-left: 32vw;
+    margin-top: 93vh;
+    width:12vw;
+    height:13vh;
+}
+
+.c2{
+    margin-left: 42vw;
+    margin-top: 43vh;
+    width:14vw;
+    height:10vh;
+}
+.c3{
+    margin-left: 52vw;
+    margin-top: 15vh;
+    width:9vw;
+    height:20vh;
+}
+
+.l1{
+    z-index:-10;
+    background-color:rgb(220, 231, 114);
+    width:5vw;
+    height:7vh;
+    margin-left: 19vw;
+    margin-top: 30vh; 
+}
+.l2{
+    z-index:-10;
+    background-color:rgb(154, 218, 102);
+    width:3vw;
+    height:5vh;
+    margin-left: 10vw;
+    margin-top: 16vh; 
+}
+.l3{
+    z-index:-10;
+    background-color:rgb(154, 218, 102);
+    width:5vw;
+    height:8vh;
+    margin-left: 58vw;
+    margin-top: 16vh; 
+}
+.l4{
+    z-index:-10;
+    background-color:rgb(102, 184, 35);
+    width:3vw;
+    height:5vh;
+    margin-left: 18vw;
+    margin-top: 36vh; 
+}
+.l5{
+    z-index:-10;
+    background-color:rgb(40, 70, 15);
+    width:5vw;
+    height:7vh;
+    margin-left: 44vw;
+    margin-top: 40vh;
+}
+.l6{
+    z-index:-10;
+    background-color:rgb(102, 184, 35);
+    width:3vw;
+    height:5vh;
+    margin-left: 48vw;
+    margin-top: 35vh;
+}
+.l7{
+    z-index:-10;
+    background-color:rgb(174, 212, 142);
+    width:3vw;
+    height:5vh;
+    margin-left: 53vw;
+    margin-top: 45vh;
+}
+.l8{
+    z-index:-9;
+    background-color:rgb(109, 216, 150);
+    width:4vw;
+    height:6vh;
+    margin-left: 55vw;
+    margin-top: 30vh;
+}
+.l9{
+    z-index:-9;
+    background-color:rgb(132, 182, 89);
+    width:6vw;
+    height:9vh;
+    margin-left: 47vw;
+    margin-top: 57vh;
+}
+.l10{
+    z-index:-9;
+    background-color:rgb(167, 197, 140);
+    width:3vw;
+    height:4vh;
+    margin-left: 54vw;
+    margin-top: 65vh;
+}
+.l11{
+    z-index:-9;
+    background-color:rgb(127, 214, 55);
+    width:2vw;
+    height:7vh;
+    margin-left: 49vw;
+    margin-top: 45vh;
+}
+.l12{
+    z-index:-11;
+    background-color:rgb(129, 158, 104);
+    width:3vw;
+    height:8vh;
+    margin-left: 52vw;
+    margin-top: 38vh;
+}
+.l13{
+    z-index:-10;
+    background-color:rgb(70, 223, 0);
+    width:3vw;
+    height:4vh;
+    margin-left: 42vw;
+    margin-top: 48vh;
+}
+.l14{
+    z-index:-10;
+    background-color:rgb(209, 240, 183);
+    width:2vw;
+    height:5vh;
+    margin-left: 51vw;
+    margin-top: 20vh;
+}
+.l15{
+    z-index:-10;
+    background-color:rgb(145, 206, 94);
+    width:4vw;
+    height:6vh;
+    margin-left: 24vw;
+    margin-top: 40vh;
+}
+.l16{
+    z-index:-10;
+    background-color:rgb(194, 250, 103);
+    width:6vw;
+    height:9vh;
+    margin-left: 23vw;
+    margin-top: 52vh;
+}
+
+.title{
+    opacity:50%;
+    z-index:-21;
+    margin-left:66vw;
+    margin-top:2vh;
+	/* flex:1; */
+	z-index:1;
+	font-size:199px;
+	color:#ece9c7;
+	animation: move2  3s infinite linear alternate;
+}
+@keyframes move2{
+  0%{
+    transform:translate(0,0);
+  }
+  100%{
+    transform:translate(0,95vh);
+  }
+}
+.title2{
+    opacity:50%;
+	position:absolute;
+    margin-left:66vw;
+    margin-top:2vh;
+	/* flex:1; */
+	z-index:-20;
+	font-size:115px;
+	color:#c3cdf0;
+	animation: move 3s infinite linear alternate;
+}
+@keyframes move{
+    0%{
+      transform:translate(0,95vh);
+    }
+    100%{
+      transform:translate(0,0);
+    }
+  }
+.text{
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    font-weight: lighter;
+    display:block;
+    position: absolute;
+    color:rgb(121, 121, 121);
+    margin-left:69vw;
+    /* margin-right:1vw; */
+    margin-top:57vh;
+    margin-bottom: 3vh;
+    width:25vw;
+    line-height:104%;
+    text-align: left;
+    font-size:80%
+}
+.text2{
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    font-weight: lighter;
+    display:block;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    margin-left:69vw;
+    /* margin-right:1vw; */
+    margin-top:108vh;
+    margin-bottom: 3vh;
+    width:25vw;
+    line-height:104%;
+    text-align: left;
+    font-size:80%
+}
+.bgc1{
+    z-index:-30;
+    background-color:black;
+    position:absolute;
+    width:66vw;
+    height:125vh;
+    margin-left: 0vw;
+    margin-top: 0px;
+    
+}
+.bgc2{
+    background-color: rgb(175, 175, 175);
+    margin-left: 66vw;
+    margin-top: 0px;
+    z-index:-30;
+    display:block;
+    position:absolute;
+    width:34vw;
+    height:125vh;
+}
